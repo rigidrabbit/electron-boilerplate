@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' blob: ; font-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' blob: ; font-src 'self'">
+  <title>Sample App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="renderer.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<h1>Hello Electron World</h1>
+<p>We are using Node.js <span id="node-version"></span>, Chromium <span id="chrome-version"></span>, and Electron <span id="electron-version"></span>.</p>
+<div id="root"></div>
+<script src="./renderer.js"></script>
+</body>
+</html>

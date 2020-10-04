@@ -1,0 +1,22 @@
+$enable-flex: true;
+$font-family-sans-serif: roboto, -apple-system, system-ui, blinkmacsystemfont, 'Segoe UI', 'Helvetica Neue', arial, sans-serif;
+
+@import 'roboto-fonts';
+@import 'material-icons';
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// Bootstrap Reboot only
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+@import '../../node_modules/bootstrap/scss/reboot';
